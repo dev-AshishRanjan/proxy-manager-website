@@ -1,41 +1,19 @@
-import { useState } from 'react';
-import typescriptLogo from './assets/typescript.svg';
-import reactLogo from '/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
-
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import DownloadSection from './components/DownloadSection';
+import NoticeSection from './components/NoticeSection';
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="Typescript logo" />
-        </a>
-        <a
-          href="https://www.typescriptlang.org/docs/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={typescriptLogo} className="logo" alt="React logo" />
-        </a>
+      <div className="App">
+        <Navbar />
+        <HeroSection />
+        <AboutSection />
+        <DownloadSection />
+        <NoticeSection />
       </div>
-      <h1>Vite + React + TS</h1>
-      <div className="card">
-        <button onClick={() => setCount(count => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite, React and Typescript logos to learn more
-      </p>
     </>
   );
 }
