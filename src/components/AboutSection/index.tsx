@@ -25,8 +25,8 @@ const AboutSection = () => {
           <h2>Mac</h2>
           <p>1. GIT</p>
           <p>2. PIP</p>
-          <p>3. Environment Variable</p>
-          <p>4. Mac Settings(networksetup webproxy)</p>
+          <p>3. Mac Settings(networksetup webproxy)</p>
+          {/* <p>4. Environment Variable</p> */}
         </div>
       </div>
     </div>

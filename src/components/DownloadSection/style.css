@@ -11,7 +11,7 @@
   background: radial-gradient(
     circle at top,
     var(--card) 0,
-    var(--primary-1) 30%,
+    var(--primary-1) 30vw,
     var(--primary-1) 100%
   );
   border-top: 1px solid var(--primary-2);
@@ -20,6 +20,13 @@
     font-weight: 900;
     font-size: 3rem;
     margin: 2rem;
+    color: var(--primary-3-light);
+  }
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--primary-3);
   }
 
   .rest {

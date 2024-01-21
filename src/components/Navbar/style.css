@@ -8,9 +8,10 @@
   gap: 1rem;
   /* background: red; */
   backdrop-filter: blur(0.3rem);
-  padding: 0.5rem 3rem;
+  padding: 0.2rem 3rem;
   border-radius: 0.5rem;
   z-index: 5;
+  user-select: none;
 
   .navLinks {
     /* width: 50%; */
@@ -33,12 +34,27 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .navbar {
     width: 100%;
+    justify-content: center;
 
-    .nav-logo {
+    .nav-logo,
+    a {
       display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    .navLinks {
+      width: 100%;
+      gap: 0.7rem;
+
+      .nav-item {
+        font-size: 0.9rem;
+      }
     }
   }
 }

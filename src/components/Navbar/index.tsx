@@ -28,6 +28,18 @@ const Navbar = () => {
           Notice
         </p>
       </div>
+      <a
+        href="https://github.com/dev-AshishRanjan/proxy-manager"
+        target="_blank"
+      >
+        <img
+          width="50"
+          height="50"
+          src={`https://img.icons8.com/clouds/500/github.png`}
+          alt={`more`}
+          className="icons-img"
+        />
+      </a>
     </div>
   );
 };

@@ -8,7 +8,7 @@
   background: radial-gradient(
     circle at top,
     var(--card) 0,
-    var(--primary-1) 40%,
+    var(--primary-1) 40vw,
     var(--primary-1) 100%
   );
 
@@ -32,6 +32,7 @@
         color: var(--primary-3);
       }
     }
+
     p {
       margin-top: 1rem;
       color: var(--light-gray);
@@ -44,17 +45,63 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
     img {
       height: 20rem;
+      filter: drop-shadow(1px 1px 15px var(--card));
+    }
+
+    .home1 {
+      position: absolute;
+      top: 3rem;
+    }
+
+    .home2 {
+      position: absolute;
+      right: -10rem;
+    }
+
+    .home3 {
+      position: absolute;
+      top: 10rem;
+      right: 1rem;
     }
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .hero {
+    padding: 1.5rem !important;
+
+    .text {
+      width: 100%;
+    }
+
     .image {
       display: none;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .hero {
+    padding: 0.5rem !important;
+
+    .text {
+      width: 100%;
+      /* word-break: break-all; */
+
+      h1 {
+        line-height: 3rem !important;
+        font-size: 4rem !important;
+
+        span {
+          font-weight: 900;
+          font-size: 4rem !important;
+          color: var(--primary-3);
+        }
+      }
     }
   }
 }
