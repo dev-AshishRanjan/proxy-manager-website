@@ -1,6 +1,6 @@
 import './style.css';
-const ReleaseSection = ({ data, latest, loading }: any) => {
-  const img = {
+const ReleaseSection = ({ data, loading }: any) => {
+  const img: any = {
     'Red Hat Linux': 'top-hat',
     Windows: 'windows8',
     Mac: 'mac-os',
