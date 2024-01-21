@@ -1,46 +1,46 @@
-![adv-create-react-app](https://socialify.git.ci/dev-AshishRanjan/adv-create-react-app/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Auto)
+![proxy-manager-website](https://socialify.git.ci/dev-AshishRanjan/proxy-manager-website/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Auto)
 
 <div align="center">
  <p>
    
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
-![Visitors](https://api.visitorbadge.io/api/visitors?path=dev-AshishRanjan%2Fadv-create-react-app%20&countColor=%23263759&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/dev-AshishRanjan/adv-create-react-app)
-![GitHub Repo stars](https://img.shields.io/github/stars/dev-AshishRanjan/adv-create-react-app)
-![GitHub contributors](https://img.shields.io/github/contributors/dev-AshishRanjan/adv-create-react-app)
-![GitHub last commit](https://img.shields.io/github/last-commit/dev-AshishRanjan/adv-create-react-app)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=dev-AshishRanjan%2Fproxy-manager-website%20&countColor=%23263759&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/dev-AshishRanjan/proxy-manager-website)
+![GitHub Repo stars](https://img.shields.io/github/stars/dev-AshishRanjan/proxy-manager-website)
+![GitHub contributors](https://img.shields.io/github/contributors/dev-AshishRanjan/proxy-manager-website)
+![GitHub last commit](https://img.shields.io/github/last-commit/dev-AshishRanjan/proxy-manager-website)
   
-![GitHub repo size](https://img.shields.io/github/repo-size/dev-AshishRanjan/adv-create-react-app)
-![Github LOC](https://tokei.rs/b1/github/dev-AshishRanjan/adv-create-react-app)
-![Github Files](https://tokei.rs/b1/github/dev-AshishRanjan/adv-create-react-app?category=files)
+![GitHub repo size](https://img.shields.io/github/repo-size/dev-AshishRanjan/proxy-manager-website)
+![Github LOC](https://tokei.rs/b1/github/dev-AshishRanjan/proxy-manager-website)
+![Github Files](https://tokei.rs/b1/github/dev-AshishRanjan/proxy-manager-website?category=files)
 
-![Github](https://img.shields.io/github/license/dev-AshishRanjan/adv-create-react-app)
-![GitHub issues](https://img.shields.io/github/issues/dev-AshishRanjan/adv-create-react-app)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/dev-AshishRanjan/adv-create-react-app)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/dev-AshishRanjan/adv-create-react-app)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dev-AshishRanjan/adv-create-react-app)
+![Github](https://img.shields.io/github/license/dev-AshishRanjan/proxy-manager-website)
+![GitHub issues](https://img.shields.io/github/issues/dev-AshishRanjan/proxy-manager-website)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/dev-AshishRanjan/proxy-manager-website)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/dev-AshishRanjan/proxy-manager-website)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/dev-AshishRanjan/proxy-manager-website)
 
  </p>
 </div>
 
 <p align="center">
-  <img align="center" src="https://readme-typing-svg.herokuapp.com?color=%23${textVal}&lines=+👋🏻+Welcome+to+3.proxy-manager-website+👋🏻;👨🏻‍💻+Lets+Build+Together+👩🏻‍💻;💡+Get+To+Know+More+About+CRA!+💡;🌐+Check+our+package+🌐;🙏🏻+Thanks+for+Contributing+🙏🏻"
+  <img align="center" src="https://readme-typing-svg.herokuapp.com?color=%23${textVal}&lines=+👋🏻+Welcome+to+proxy-manager-website+👋🏻;👨🏻‍💻+Lets+Build+Together+👩🏻‍💻;💡+Get+To+Know+More+About+CRA!+💡;🌐+Check+our+package+🌐;🙏🏻+Thanks+for+Contributing+🙏🏻"
  <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </p>
 
 ---
 
-# **_3.proxy-manager-website_**
+# **_Proxy Manager Website_**
 
-Initialized this project using [adv-create-react-app](https://github.com/dev-AshishRanjan/adv-create-react-app)
+Initialized this project using [proxy-manager-website](https://github.com/dev-AshishRanjan/proxy-manager-website)
 
 ## Tech Stack
 
 <p>
-    <img src="https://img.shields.io/badge/javascript-7c3aed?style=for-the-badge&logo=javascript&logoColor=white" alt="Javascript official Website"/>
-    <img src="https://img.shields.io/badge/Node.js-7c3aed?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejs official Website"/>
     <img src="https://img.shields.io/badge/react-7c3aed?style=for-the-badge&logo=react&logoColor=white" alt="react official Website"/>
+    <img src="https://img.shields.io/badge/javascript-7c3aed?style=for-the-badge&logo=javascript&logoColor=white" alt="Javascript official Website"/>
+    <img src="https://img.shields.io/badge/css3-7c3aed?style=for-the-badge&logo=css3&logoColor=white" alt="nodejs official Website"/>
 </p>
 
 ## Docker
