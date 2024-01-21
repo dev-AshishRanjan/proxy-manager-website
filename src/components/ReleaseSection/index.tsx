@@ -29,7 +29,11 @@ const ReleaseSection = ({ data, loading }: any) => {
                 (ele.name.includes('darwin') && 'Mac') ||
                 (ele.name.includes('.deb') && 'Debian Linux');
               return names.includes(name) ? (
-                <a className="card" key={ele.id} href={data.html_url}>
+                <a
+                  className="card"
+                  key={ele.id}
+                  href={ele.browser_download_url}
+                >
                   <h3>{name}</h3>
                   <img
                     width="100"
@@ -38,7 +42,9 @@ const ReleaseSection = ({ data, loading }: any) => {
                     alt={`${name}`}
                     className="icons-img"
                   />
-                  <a href={ele.browser_download_url}>Download</a>
+                  <a href={ele.browser_download_url} target="_blank">
+                    Download
+                  </a>
                   <p>{ele.created_at.split('T')[0]}</p>
                 </a>
               ) : null;
