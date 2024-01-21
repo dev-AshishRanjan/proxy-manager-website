@@ -12,9 +12,9 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="image">
-        <img src="/src/assets/images/home2.png" alt="" className="home1" />
-        <img src="/src/assets/images/sudo.png" alt="" className="home2" />
-        <img src="/src/assets/images/home1.png" alt="" className="home3" />
+        <img src="/images/home2.png" alt="" className="home1" />
+        <img src="/images/sudo.png" alt="" className="home2" />
+        <img src="/images/home1.png" alt="" className="home3" />
       </div>
     </div>
   );

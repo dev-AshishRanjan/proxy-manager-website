@@ -24,8 +24,8 @@ const NoticeSection = () => {
         </p>
       </div>
       <div className="image">
-        <img src="/src/assets/images/notice2.png" alt="" className="home1" />
-        <img src="/src/assets/images/notice1.png" alt="" className="home2" />
+        <img src="/images/notice2.png" alt="" className="home1" />
+        <img src="/images/notice1.png" alt="" className="home2" />
       </div>
       {/* about code signing, unauth app, and check on web on how to install unauth app on your os */}
       {/* about that we don't access or modify your any sensetive data, except the proxy */}
