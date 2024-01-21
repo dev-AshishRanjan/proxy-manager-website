@@ -8,10 +8,11 @@
   gap: 1rem;
   /* background: red; */
   backdrop-filter: blur(0.3rem);
-  padding: 0.2rem 3rem;
+  padding: 0.2rem 2rem;
   border-radius: 0.5rem;
   z-index: 5;
   user-select: none;
+  border: 1px solid transparent;
 
   .navLinks {
     /* width: 50%; */
@@ -34,11 +35,18 @@
   }
 }
 
+.nav-down {
+  backdrop-filter: blur(0.5rem);
+  border: 1px solid var(--light-gray);
+  background: var(--dark-gray);
+}
+
 @media (max-width: 950px) {
   .navbar {
-    width: 100%;
+    width: 83%;
+    top: 0.7rem;
     justify-content: center;
-    padding: 0.5rem 3rem;
+    padding: 1rem 2rem;
 
     .nav-logo,
     a {
@@ -47,8 +55,9 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .navbar {
+    width: 90%;
     .navLinks {
       width: 100%;
       gap: 0.7rem;
